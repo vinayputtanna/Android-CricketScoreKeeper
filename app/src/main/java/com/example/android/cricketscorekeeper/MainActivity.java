@@ -7,14 +7,14 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int runsInd = 0;
-    int runsAus = 0;
-    int wicketsInd = 0;
-    int wicketsAus = 0;
-    double oversInd = 0;
-    double oversAus = 0;
-    int currentOverInd = 0;
-    int currentOverAus = 0;
+    private int runsInd = 0;
+    private int runsAus = 0;
+    private int wicketsInd = 0;
+    private int wicketsAus = 0;
+    private double oversInd = 0;
+    private double oversAus = 0;
+    private int currentOverInd = 0;
+    private int currentOverAus = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
